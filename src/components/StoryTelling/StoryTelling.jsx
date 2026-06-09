@@ -5,7 +5,7 @@ import "./StoryTelling.css";
 import maternity from "../../assets/img1.jpg";
 import prewedding from "../../assets/img3.jpg";
 import wedding from "../../assets/img2.jpg";
-import bride from "../../assets/bride1.jpg"; // Add your bride image
+import bride from "../../assets/bride1.jpg";
 
 const photographyData = [
   {
@@ -80,7 +80,7 @@ const StoryBlock = ({ item, index }) => (
   </motion.div>
 );
 
-export default function Storytelling() {
+function Storytelling() {
   return (
     <section className="storytelling-section">
 
@@ -99,3 +99,5 @@ export default function Storytelling() {
     </section>
   );
 }
+
+export default Storytelling;
